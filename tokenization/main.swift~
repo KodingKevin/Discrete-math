@@ -1,0 +1,35 @@
+enum Token {
+    
+    enum TokenError: Error {
+        case noTokenFound
+    }
+    case variableDeclaration
+    case operatorAssignment
+    case literalIntegers(value:String)
+    case identifier(name: String)
+
+    static func nextToken(from line: String) throws{
+        let variableDeclarationPattern = #/var\s/#
+
+        if let match = try variableDeclaration.prefixMatch(in: line) {
+            print("Found varibale declaratin")
+        } else{
+            throw TokenError.noTokenFound
+        }
+    }
+    
+}
+
+
+
+
+func main() {
+    do{
+        let line = "  var alpha = 3"
+        print(try Token.nextToken(from: line))
+    } catch {
+        print("Failed because : \(error)")
+    }
+}
+
+main()

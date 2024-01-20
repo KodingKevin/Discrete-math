@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/kevin-li/projects/DM/tokenization/.build/x86_64-unknown-linux-gnu/debug/Simple.build/master.swiftdeps"
+  },
+  "/home/kevin-li/projects/DM/tokenization/main.swift": {
+    "dependencies": "/home/kevin-li/projects/DM/tokenization/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.d",
+    "object": "/home/kevin-li/projects/DM/tokenization/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o",
+    "swiftmodule": "/home/kevin-li/projects/DM/tokenization/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/kevin-li/projects/DM/tokenization/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swiftdeps"
+  }
+}

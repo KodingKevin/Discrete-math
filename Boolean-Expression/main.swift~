@@ -1,0 +1,58 @@
+import Foundation
+
+enum Token {
+    case identifier(String) 
+    case operate(String)
+}
+
+func tokenization(input: String) -> [Token]{
+    var tokens: [Token] = []
+  
+}
+
+func parseInput(){
+    
+
+}
+ 
+func parseTree(){
+    
+}
+
+func evaluation(){
+    
+}
+
+func generateTruthTable(){
+    
+}
+
+ 
+print("Enter a boolean expression:")
+let expression = readLine()
+
+let components = expression!.components(separatedBy: " ")
+var final : [String] = ""
+for variables in components{
+    switch variable.lowercased(){
+    case "and":
+        final.append("∧")
+    case "or":
+        final.append("∨")
+    case "not":
+        final.append("¬")
+    case "xor":
+        final.append("⊕")
+    case "imply":
+        final.append("→")
+    case "true":
+        final.append("⊤")
+    case "false":
+        final.append("⊥")
+    default:
+        final.append(variable)
+    }
+    
+        
+}
+    

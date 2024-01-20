@@ -1,0 +1,6 @@
+version: "Swift version 5.8.1 (swift-5.8.1-RELEASE)"
+options: "3ec499e1a0d0ed5c5717df5639d1ac1318ef9081212c3203e79e6663d0660997"
+build_start_time: [1695748178, 361563000]
+build_end_time: [1695748179, 891547000]
+inputs:
+  "/home/kevin-li/projects/DM/sums/main.swift": !private [1695748177, 0]
